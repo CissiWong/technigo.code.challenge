@@ -1,0 +1,79 @@
+/* Font by Google font */
+
+h1 {
+  color: #000000;
+  font-family: 'Monoton', cursive;
+  font-size: 125px;
+  text-align: center;
+}
+
+/* Background image credit: https://www.behance.net/lindsayschragen/
+Not for commercial or public use */
+
+body {
+	background-image:url("images/tensegrity_3.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  font-family: 'Raleway Dots', cursive;
+}
+
+/* Font by Google font */
+
+input {
+  display: block;
+  margin: auto;
+  margin-top: -100px;
+  width: 250px;
+  border-color: black;
+  font-size: 21px;
+  padding-left: 5px;
+  font-family: 'Raleway Dots', cursive;
+  cursor: text;
+}
+
+.input,
+input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 2;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  width: 100px;
+  height: 75px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #e6a2ed;
+  border: none;
+  color: #ffffff;
+  font-family: 'Raleway Dots', cursive;
+  cursor: pointer;
+}
+
+/* Code credit to:
+http://www.developerdrive.com/2015/01/8-simple-css-hover-effects/
+*/
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+}
+
+  button:hover {
+  	animation: bounce 1s;
+  }
